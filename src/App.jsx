@@ -9,21 +9,21 @@ const services = [
   {
     id: 'banho',
     title: 'Banho completo',
-    image: '/assets/img/banho.png',
+    image: '/assets/clients/IMG_6416.JPEG',
     text: 'Higienização cuidadosa, produtos de qualidade e acabamento pensado para o conforto do pet.',
     details: ['Produtos seguros', 'Secagem delicada', 'Perfume suave'],
   },
   {
     id: 'tosa',
     title: 'Tosa profissional',
-    image: '/assets/img/tosa.png',
+    image: '/assets/clients/IMG_2014.JPEG',
     text: 'Tosa feita com técnica, paciência e respeito ao limite de cada animal.',
     details: ['Tosa higiênica', 'Tosa na tesoura', 'Acabamento personalizado'],
   },
   {
     id: 'escovacao',
     title: 'Escovação',
-    image: '/assets/img/escovacao.png',
+    image: '/assets/clients/IMG_4146.JPEG',
     text: 'Remoção de pelos soltos e nós, ajudando na saúde da pele e da pelagem.',
     details: ['Desembaraço', 'Manutenção da pelagem', 'Mais conforto no dia a dia'],
   },
@@ -250,7 +250,7 @@ function App() {
             </div>
             <div className="col-lg-6">
               <div className="hero-media">
-                <img src="/assets/img/mdpl.svg" alt="Logo Mãe de Pet" />
+                <img src="/assets/img/ledjane-profile-framed.jpeg" alt="Ledjane Morais" />
               </div>
             </div>
           </div>

@@ -11320,8 +11320,13 @@ a {
 
 .hero-media img {
   position: relative;
-  width: min(70%, 24rem);
-  filter: drop-shadow(0 22px 22px rgba(32, 49, 58, 0.24));
+  width: min(72%, 24rem);
+  aspect-ratio: 1;
+  border: 0.55rem solid rgba(255, 255, 255, 0.8);
+  border-radius: 999px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 0 24px 40px rgba(32, 49, 58, 0.28);
 }
 
 .page-section {
